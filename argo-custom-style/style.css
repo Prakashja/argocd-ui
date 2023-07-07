@@ -9,7 +9,15 @@ content: url(https://assets.turbologo.com/blog/en/2018/03/19085254/prozrachniy-l
   content: url(https://assets.turbologo.com/blog/en/2018/03/19085254/prozrachniy-logo-1-800x575.png);
 }
 .login .argo__logo {
+    background-image: url(c);
+}
+.login__logo img.logo-image {
+  display: none
+}
+.login__logo {
+    background-size: 100px 50px;
     background-image: url(https://assets.turbologo.com/blog/en/2018/03/19085254/prozrachniy-logo-1-800x575.png);
+    height: 50px;
 }
 .top-bar{
 background: #232222;
