@@ -1,47 +1,28 @@
-body{
-background: green;
-}
-/* used to set a different logo */
-.nav-bar__logo img {
-content: url(https://assets.turbologo.com/blog/en/2018/03/19085254/prozrachniy-logo-1-800x575.png);
-}
-.sidebar__logo img { 
-  content: url(https://assets.turbologo.com/blog/en/2018/03/19085254/prozrachniy-logo-1-800x575.png);
-}
-.login .argo__logo {
-    background-image: url(c);
-}
-.login__logo img.logo-image {
-  display: none
-}
-.login__logo {
-    background-size: 100px 50px;
-    background-image: url(https://assets.turbologo.com/blog/en/2018/03/19085254/prozrachniy-logo-1-800x575.png);
-    height: 50px;
-}
-.top-bar{
-background: #232222;
-}
-.top-bar__breadcrumbs{
-color: white;
-}
-.filters-group__panel{
-background-color: black;
-color: white;
-}
-.filter{
-background-color: #232222;
-color: white;
-}
-.filter__item{
-background-color: #232222;
-color: white;
-}
-.applications-list__entry{
-background: #232222;
-color: white;
+/* primary */
+.argo-button--base,
+.argo-button--base:hover {
+  background: #7d7370 !important;
 }
 
-.nav-bar__logo img {
-content: url(https://assets.turbologo.com/blog/en/2018/03/19085254/prozrachniy-logo-1-800x575.png);
+.argo-button--base:hover {
+  opacity: 0.8 !important;
+}
+
+/* secondary */
+.argo-button--base-o {
+  color: #7d7370 !important;
+  box-shadow: inset 0 0 0 1px #7d7370 !important;
+}
+
+.argo-button--base-o:hover,
+.argo-button--base-o:focus {
+  background: #7d7370 !important;
+  color: #fff !important;
+  box-shadow: inset 0 0 0 1px #7d7370 !important;
+}
+
+/* disabled */
+.argo-button.disabled,
+.argo-button[disabled] {
+  background: #968f8c !important;
 }
