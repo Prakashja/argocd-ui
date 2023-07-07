@@ -1,9 +1,15 @@
 body{
-background: blue;
+background: green;
 }
 /* used to set a different logo */
 .nav-bar__logo img {
 content: url(https://assets.turbologo.com/blog/en/2018/03/19085254/prozrachniy-logo-1-800x575.png);
+}
+.sidebar__logo img { 
+  content: url(https://assets.turbologo.com/blog/en/2018/03/19085254/prozrachniy-logo-1-800x575.png);
+}
+.login .argo__logo {
+    background-image: url(https://assets.turbologo.com/blog/en/2018/03/19085254/prozrachniy-logo-1-800x575.png);
 }
 .top-bar{
 background: #232222;
